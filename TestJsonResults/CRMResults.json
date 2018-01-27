@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 138987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateContacts.setUpGeckoDriverPath()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Open Firefox and Login to CRM",
+        "description": "",
+        "id": "login-to-crm-application;open-firefox-and-login-to-crm;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 435337331,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateContacts.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5981399649,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Invoke Firefox Browser",
+            "match": {
+              "location": "CreateContacts.invoke_Firefox_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8748797332,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch CRM Application",
+            "match": {
+              "location": "CreateContacts.launch_CRM_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137532432,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Application launched enter \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 28
+                },
+                {
+                  "val": "test@123",
+                  "offset": 42
+                }
+              ],
+              "location": "CreateContacts.application_launched_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5874419193,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "CreateContacts.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61597037,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate user navigated to Home screen",
+            "match": {
+              "location": "CreateContacts.validate_user_navigated_to_Home_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7517694368,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to Create Contact Page and enter \"vinayak\", \"mahadev\" and \"leader\" and save",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinayak",
+                  "offset": 43
+                },
+                {
+                  "val": "mahadev",
+                  "offset": 54
+                },
+                {
+                  "val": "leader",
+                  "offset": 68
+                }
+              ],
+              "location": "CreateContacts.create_contacts(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 63292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateContacts.setUpGeckoDriverPath()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Open Firefox and Login to CRM",
+        "description": "",
+        "id": "login-to-crm-application;open-firefox-and-login-to-crm;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 405482429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateContacts.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4544677577,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Invoke Firefox Browser",
+            "match": {
+              "location": "CreateContacts.invoke_Firefox_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8394086753,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch CRM Application",
+            "match": {
+              "location": "CreateContacts.launch_CRM_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75186575,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Application launched enter \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 28
+                },
+                {
+                  "val": "test@123",
+                  "offset": 42
+                }
+              ],
+              "location": "CreateContacts.application_launched_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6052301138,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "CreateContacts.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58936178,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate user navigated to Home screen",
+            "match": {
+              "location": "CreateContacts.validate_user_navigated_to_Home_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7287468519,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to Create Contact Page and enter \"ajith\", \"kumar\" and \"actor\" and save",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ajith",
+                  "offset": 43
+                },
+                {
+                  "val": "kumar",
+                  "offset": 52
+                },
+                {
+                  "val": "actor",
+                  "offset": 64
+                }
+              ],
+              "location": "CreateContacts.create_contacts(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to CRM Application",
+    "description": "",
+    "id": "login-to-crm-application",
+    "keyword": "Feature",
+    "uri": "CRMFeatures/CreateContacts.feature"
+  }
+]
